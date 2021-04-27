@@ -1,6 +1,6 @@
 package imdb;
 
-import base.BaseTest;
+import imdb.base.BaseTest;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SearchResultsPage;

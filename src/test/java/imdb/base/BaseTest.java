@@ -1,4 +1,4 @@
-package base;
+package imdb.base;
 
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.*;
@@ -11,10 +11,9 @@ import org.testng.ITestResult;
 
 import java.io.IOException;
 import com.google.common.io.Files;
-import utils.EventReporter;
+import imdb.utils.EventReporter;
 
 import java.io.File;
-import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected EventFiringWebDriver webDriver;
